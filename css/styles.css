@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html ,body {
+    font-family: 'Lato', sans-serif;
+}
+.main1{
+    background-image: url(../images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+.brand img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+}
+
+.links ul{
+    display: flex;
+    justify-content: space-between;
+}
+#one{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+.links ul li{
+   margin: 0 20px;
+   font-size: 1rem;
+   font-weight: 800;
+   list-style: none;
+   border-bottom: 2px solid #fff;
+   color: #fff;
+   cursor: pointer;
+   text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.heading1{
+    margin-top: 10rem;
+}
+.heading1 h1{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 60px;
+}
+
+#los{
+    color: #423a3a;
+}
+#mount{
+    color: rgb(48, 48, 72);
+}
+h3{
+    font-weight: 800;
+    margin-left: 10px;
+    letter-spacing: 4px;
+}
+
+.main2{
+  background-image: url(../images/main2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 121vh;
+} 
+.heading2{
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+.heading2 h1{
+    font-size: 8rem;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.3);
+}
+.heading2 h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 14.5rem;
+    bottom: -175px;
+}
+
+.heading2 p{
+    opacity: 0.9;
+    width: 70%;
+    margin-left: 5rem;
+}
+
+.carousel {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 168px;
+    position: absolute;
+    top: 194vh;
+}
+.carousell {
+    margin: 12px 20%;
+    width: 60%;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .carousel img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+
+
+  .buttons{
+    text-align: center;
+  }
+  .btn{
+    width: 15px;
+    height: 15px;
+     background: #fff;
+     border: 0;
+     outline: none;
+     border-radius: 50%;
+     margin: 0 10px;
+  }
+
+  .heading3{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+  }
+  .heading3 h1{
+    font-size: 8rem;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.3);
+}
+.heading3 h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgba(0, 0, 0, 0.7);
+    margin-left: -10px;
+}
+
+.heading3 p{
+    opacity: 0.9;
+    width: 70%;
+    margin-left: 10px;
+}
+
+.nav3{
+    display: flex;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 30px;
+    padding-left: 10rem;
+}
+.nav3 h4{
+    font-weight: 800;
+    font-size: 1.1rem;
+    padding: 5px 20px 0  0;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.nav3 h4:hover{
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.main3{
+    background: url(../images/main3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    padding-top: 2rem;
+    display: flex;
+}
+
+.schedules1{
+    background: rgba(255, 255, 255, 0.4);
+    width: 20%;
+    height: 65%;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+.schedules2{
+    background: rgba(255, 255, 255, 0.4);
+    width: 20%;
+    height: 65%;
+    margin-top: 3rem;
+    margin-left: 10rem;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+.schedules1 h2, .schedules2 h2{
+    font-weight: 800;
+    margin-left: 2rem;
+    padding-top: 1rem;
+}
+
+.schedule{
+    margin: 1rem 2rem;
+    display: flex;
+}
+.nav4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+@media screen and (max-width: 768px) {
+    .heading3 p {
+        display: none;
+    }
+    .schedules1 {
+        margin: 20px 20%;
+        width: 60%;
+        height: 70%;
+    }
+}
